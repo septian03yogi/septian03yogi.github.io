@@ -1,0 +1,28 @@
+* {
+    box-sizing:border-box;
+}
+
+/*
+body {
+    font-family:'Verdana', sans-serif;
+    display:flex; align-items:center;
+    justify-content:center; height:100vh;
+    overflow:hidden; margin:0;
+} 
+*/
+.bg {
+    background:linear-gradient(to bottom, #E1B486 0%,#E1B486 50%,
+    #331D1D 50%, #331D1D 100%)
+    no-repeat center center / cover;
+    position:absolute;
+    top:-30px; left:-30px;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    z-index:-1;
+    filter:blur(2px);
+}
+
+.loading_text {
+    font-size:100px;
+    color: #9F3434;
+}
